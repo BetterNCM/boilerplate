@@ -1,0 +1,16 @@
+{
+    "manifest_version": 1,
+    "name": "boilerplate", 
+    "version": "0.0.1",
+    "author": "MicroBlock", 
+    "description": "BetterNCM Plugin Template",
+    "betterncm_version": ">=0.2.5",
+    "preview": "preview.png",
+    "injects": {
+        "Main": [ 
+            {
+                "file": "./dist/main.js"
+            }
+        ]
+    }
+}
